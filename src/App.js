@@ -1,11 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route,Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App text-5xl">
-      You can start your project now!
-      <h1>or if you want oga.</h1>
+    <div className="">
+
+      <Routes>
+        <Route path="/" />
+        <Route path="/female" />
+        
+        <Route path="/accessories" />
+
+        <Route path="/phonesAndTablet" />
+
+      </Routes>
     </div>
   );
 }
